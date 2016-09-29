@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>来买东西啊</title>
+<script type="text/javascript" src="JavaScript/jquery-3.1.0.js"></script>
+<script type="text/javascript" src="JavaScript/input.js"></script>
+<script type="text/javascript" src="JavaScript/jquery.cookie.js"></script>
+<script type="text/javascript" src="JavaScript/changeSkin.js"></script>
+<script type="text/javascript" src="JavaScript/brandchange.js"></script>
+<link rel="stylesheet" href="style/skin/skin_0.css" type=
+"text/css" id="cssfile" />
+<link rel="stylesheet" type="text/css" href="style/headbg.css"/>
+<link rel="stylesheet" type="text/css" href="style/content.css"/>
+<link rel="stylesheet" type="text/css" href="style/gogo.css"/>
+</head>
+
+<body>
+<div id="head">
+  <div class="headimage"> <img src="images/logo.gif"/> </div>
+  <div class="search">
+    <input type="text" class="" id="inputSearch" value="请输入商品名称"/>
+  </div>
+  <div class="styleType">
+    <ul id="skin">
+      <li id="skin_0" title="蓝色" class="selected">蓝色</li>
+      <li id="skin_1" title="紫色">紫色</li>
+      <li id="skin_2" title="红色">红色</li>
+      <li id="skin_3" title="天蓝色">天蓝色</li>
+      <li id="skin_4" title="橙色">橙色</li>
+      <li id="skin_5" title="淡绿色">淡绿色</li>
+    </ul>
+    <div class="movehead">
+    <ul class="myul">
+      <li id="li1">首页</li>
+      <li id="brand"  class="brandone">推荐品牌</li>
+      <li id="li3">女装</li>
+      <li id="li4">男装</li>
+      <li id="li5">鞋包装饰</li>
+      </div>
+      <div class="divbrand" hidden="hide">
+        <div class="brandone">
+          <ul class="brandone">
+            <li>品牌</li>
+            <li>阿迪达斯</li>
+            <li>李宁</li>
+            <li>特步</li>
+            <li>好鞋</li>
+            <li>坏鞋</li>
+          </ul>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+<div id="content">
+  <div class="product">
+    <h4 id="F4">商品分类</h4>
+    <div class="productone">
+      <h5 class="title">推荐商品</h5>
+      <div class="myhr">
+        <hr width="80%" style="height:1px;border:none;border-top:1px dashed #0066CC;" />
+      </div>
+      <div class="listone">
+        <ul class="listtwo">
+          <li>耐克</li>
+          <li>达芙妮<img src="images/hot.gif"/></li>
+          <li>安踏</li>
+          <li>骆驼</li>
+        </ul>
+        <ul class="listthree">
+          <li>阿迪达斯<img src="images/hot.gif"/></li>
+          <li>李宁</li>
+          <li>奥康</li>
+          <li>特步</li>
+        </ul>
+      </div>
+    </div>
+    <div class="productone">
+      <h5 class="title">女装</h5>
+      <div class="myhr">
+        <hr width="80%" style="height:1px;border:none;border-top:1px dashed #0066CC;" />
+      </div>
+      <div class="listone">
+        <ul class="listtwo">
+          <li>呢大衣</li>
+          <li>羽绒</li>
+          <li>羊绒衫<img src="images/hot.gif"/></li>
+          <li>连衣裙</li>
+        </ul>
+        <ul class="listthree">
+          <li>T袖</li>
+          <li>衬衫<img src="images/hot.gif"/></li>
+          <li>针织</li>
+          <li>皮外套</li>
+        </ul>
+      </div>
+    </div>
+    <div class="productone">
+      <h5 class="title">男装</h5>
+      <div class="myhr">
+        <hr width="80%" style="height:1px;border:none;border-top:1px dashed #0066CC;" />
+      </div>
+      <div class="listone">
+        <ul class="listtwo">
+          <li>衬衫</li>
+          <li>夹克<img src="images/hot.gif"/></li>
+          <li>风衣</li>
+          <li>西服</li>
+        </ul>
+        <ul class="listthree">
+          <li>T恤衫</li>
+          <li>大皮衣<img src="images/hot.gif"/></li>
+          <li>牛仔裤</li>
+          <li>卫衣</li>
+        </ul>
+      </div>
+    </div>
+    <div class="productone">
+      <h5 class="title">鞋包配饰</h5>
+      <div class="myhr">
+        <hr width="80%" style="height:1px;border:none;border-top:1px dashed #0066CC;" />
+      </div>
+      <div class="listone">
+        <ul class="listtwo">
+          <li>围巾</li>
+          <li>真皮包<img src="images/hot.gif"/></li>
+          <li>达芙妮</li>
+          <li>毛线</li>
+        </ul>
+        <ul class="listthree">
+          <li>旅行箱</li>
+          <li>韩版</li>
+          <li>单肩包<img src="images/hot.gif"/></li>
+          <li>清仓鞋子</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="detaildiv">
+    <div id="detailImage"> <a href="###"><img src="images/pro_img/blue_one_small.jpg"/></a> </div>
+    <div id="imageText"> <img src="images/look.gif"/> </div>
+    <div id="smallImage">
+      <ul>
+        <li><img src="images/pro_img/blue_one.jpg" /></li>
+        <li><img src="images/pro_img/blue_two.jpg"/></li>
+        <li><img src="images/pro_img/blue_three.jpg"/></li>
+      </ul>
+    </div>
+    </div>
+    <div id="productIntroduce">
+      <div id="tab_menu">
+        <ul>
+          <li class="selected">产品属性</li>
+          <li>产品尺码表</li>
+          <li>产品介绍</li>
+        </ul>
+      </div>
+      <div id="tab_box">
+        <div> 沿用风靡百年的经典全棉牛津纺面料，通过领先的液氨整理技术，使面料的抗皱性能更上一层。延续简约、舒适、健康设计理念，特推出免烫、易打理的精细免烫牛津纺长袖衬衫系列。</div>
+        <div hidden="hide" class="hide"> 来自新疆无污染的生态棉花，采用紧密纺精梳棉纱，单经双纬的织造组织，造就了颗粒饱满、朴实无华、温润细腻的经典牛津纺，易洗快干、手感丰软、吸湿性好。设计师遵循布料完美肌理，立体剪裁，曲摆的现代人性化裁减，相得益彰，浑然天成。</div>
+        <div hidden="hide" class="hide"> 世界权威德国科德宝的衬和英国高士缝纫线使成衣领型自然舒展、永不变形，缝线部位平服工整、牢固耐磨；人性化的4片式后背打褶结构设计提供更舒适的活动空间；领尖扣的领型设计戴或不戴领带风格炯同、瞬间呈现；醇正天然设计，只为彰显自然荣耀。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="foot"> </div>
+</body>
+</html>
