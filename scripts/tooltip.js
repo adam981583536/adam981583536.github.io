@@ -1,4 +1,4 @@
-// JavaScript Document
+﻿/* 超链接文字提示 */
 $(function(){
     var x = 10;  
 	var y = 20;
